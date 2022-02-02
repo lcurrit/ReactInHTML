@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>React Menu in HTML Test </title>
+
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="menu.js" type="text/babel"></script>
+  <script src="section.js" type="text/babel"></script>
+</head>
+
+<body>
+  <div class="container mx-auto">
+    <header class="bg-green-300 p-4">
+      <h2 class="text-2xl font-bold text-center mb-4">No build Menu Component w/Tailwind</h2>
+      <div id="menu"></div>
+    </header>
+    <div id="content" class="grid grid-cols-[200px_1fr]">
+      <aside class="bg-red-300 p-4">
+        <p>Technology used:</p>
+        <ul>
+          <li>React</li>
+          <li>Babel</li>
+          <li>TailwindCSS</li>
+        </ul>
+      </aside>
+      <main class="bg-blue-300 p-4 grid grid-cols-2 gap-4">
+          <div id="section-1" class="section"></div>
+          <div id="section-2" class="section"></div>
+          <div id="section-3" class="section"></div>
+          <div id="section-4" class="section"></div>
+      </main>
+    </div>
+    <footer class="text-center italic bg-orange-300 p-4">
+      React Menu in HTML Test
+    </footer>
+  </div>
+
+</body>
+
+</html>

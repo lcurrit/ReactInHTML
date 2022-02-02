@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>React Menu in HTML Test </title>
+
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="menu.js" type="text/babel"></script>
+</head>
+
+<body>
+  <div class="container mx-auto">
+    <header class="bg-green-300 p-4">
+      <h2 class="text-2xl font-bold text-center mb-4">No build Menu Component w/Tailwind</h2>
+      <div id="menu"></div>
+    </header>
+    <div id="content" class="grid grid-cols-[200px_1fr]">
+      <aside class="bg-red-300 p-4">
+        <p>Technology used:</p>
+        <ul>
+          <li>React</li>
+          <li>Babel</li>
+          <li>TailwindCSS</li>
+        </ul>
+      </aside>
+      <main class="bg-blue-300 p-4">
+          <p class="mb-4">This is a simple project to help determine the best way to integrate REACT into an existing site on a "per component" basis.</p>
+          <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatum, animi nihil voluptates amet in labore nesciunt temporibus illum pariatur obcaecati unde maiores voluptatibus minima laboriosam alias sequi, eaque ducimus recusandae distinctio doloribus quos accusantium. Aperiam natus debitis possimus eaque ipsam. Veritatis nobis laborum ut magni quasi soluta quod ipsum!</p>
+          <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere doloribus saepe minima dignissimos cupiditate. Dolores in quae necessitatibus exercitationem placeat aliquid. Quaerat laborum cum rem id distinctio quidem alias debitis explicabo nesciunt consequuntur reprehenderit quisquam rerum maiores fuga neque, fugiat ullam atque maxime quae quo veritatis, dolores est incidunt tempora.</p>
+      </main>
+    </div>
+    <footer class="text-center italic bg-orange-300 p-4">
+      React Menu in HTML Test
+    </footer>
+  </div>
+
+</body>
+
+</html>
